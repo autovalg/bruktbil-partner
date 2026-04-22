@@ -23,25 +23,25 @@ type Car = {
 export default function HomePage() {
   const featuredCars: Car[] = [
     {
-      title: "Volkswagen Tiguan",
-      subtitle: "2016 • 99 999 km • Automat • Diesel",
-      price: "269 890 kr",
-      image: "/cars/tiguan.jpg",
-      badges: ["150 hk", "4x4", "Highline", "Webasto"],
+      title: "Peugeot 3008",
+      subtitle: "2.0 181HK Aut. GT Line|Krok|Carplay|ACC++",
+      price: "219 900 kr",
+      image: "/cars/peugeot2017.jpg",
+      badges: ["2017", "68 000 km", "Automat", "Diesel"],
     },
     {
-      title: "BMW X3",
-      subtitle: "2015 • 122 300 km • Automat • Diesel",
-      price: "259 890 kr",
-      image: "/cars/bmw-x3.jpg",
-      badges: ["190 hk", "xDrive", "HUD", "360-kamera"],
+      title: "Peugeot 3008",
+      subtitle: "Automat|Isofix|Panorama|Ryggekamera|Garanti",
+      price: "74 900 kr",
+      image: "/cars/peugeot2014.jpg",
+      badges: ["2014", "179 000 km", "Automat", "Diesel"],
     },
     {
-      title: "BMW X1",
-      subtitle: "2016 • 89 800 km • Automat • Diesel",
-      price: "249 890 kr",
-      image: "/cars/bmw-x1.jpg",
-      badges: ["136 hk", "xDrive", "Panorama", "HUD"],
+      title: "Citroen E-C4",
+      subtitle: "Shine|Oppvarmet Ratt|Panorama|ACC|Garanti++",
+      price: "189 900 kr",
+      image: "/cars/citroen.jpg",
+      badges: ["2021", "46 480 km", "Automat", "El"],
     },
   ];
 
@@ -115,7 +115,7 @@ export default function HomePage() {
               href="#"
               className="font-sans text-lg font-medium uppercase tracking-[0.32em] text-white/95"
             >
-              Bruktbil Partner AS
+              Sarpsborg Bruktbil AS
             </a>
 
             <nav className="hidden items-center gap-8 text-sm text-white/80 md:flex">
@@ -142,7 +142,7 @@ export default function HomePage() {
               </h1>
 
               <p className="mt-6 max-w-2xl text-sm leading-7 text-white/78 sm:text-base">
-                Denne demoen er bygget for å gi Bruktbil Partner AS et mer
+                Denne demoen er bygget for å gi Sarpsborg Bruktbil AS et mer
                 eksklusivt og tillitsbyggende uttrykk. Målet er at nettsiden skal
                 føles mer som et premium showroom enn en standard bruktbilside.
               </p>
@@ -188,7 +188,7 @@ export default function HomePage() {
                         Demo-visning
                       </p>
                       <p className="mt-2 font-[var(--font-display)] text-[1.65rem] font-semibold leading-none text-[#f2e6da]">
-                        Bruktbil Partner AS
+                        Sarpsborg Bruktbil AS
                       </p>
                     </div>
 
@@ -421,9 +421,9 @@ export default function HomePage() {
                 </p>
 
                 <div className="mt-8 space-y-3 text-sm text-white/75">
-                  <p>Telefon: 47 16 89 76</p>
+                  <p>Telefon: 47 45 30 00</p>
                   <p>E-post: [sett inn e-post]</p>
-                  <p>Adresse: Dammyr 28B, 1605 Fredrikstad</p>
+                  <p>Adresse: Tuneveien 14, 1710 Sarpsborg</p>
                 </div>
               </div>
 
@@ -474,7 +474,7 @@ export default function HomePage() {
 
       <footer className="border-t border-white/8">
         <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-8 text-sm text-white/42 sm:px-8 lg:flex-row lg:items-center lg:justify-between lg:px-10">
-          <p>© 2026 Bruktbil Partner AS</p>
+          <p>© 2026 Sarpsborg Bruktbil AS</p>
           <p>Demo-nettside med varmere premium-profil og showroom-følelse.</p>
         </div>
       </footer>
